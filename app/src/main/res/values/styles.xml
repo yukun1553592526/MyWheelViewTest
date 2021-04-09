@@ -1,0 +1,24 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <declare-styleable name="prickerview">
+        <attr name="wheelview_gravity">
+            <enum name="center" value="17" />
+            <enum name="left" value="3" />
+            <enum name="right" value="5" />
+        </attr>
+        <attr name="wheelview_textSize" format="dimension"/>
+        <attr name="wheelview_outerTextColor" format="color" />
+        <attr name="wheelview_centerTextColor" format="color" />
+        <attr name="wheelview_dividerColor" format="color" />
+        <attr name="wheelview_dividerWidth" format="color" />
+        <attr name="wheelview_lineSpacingMultiplier" format="color" />
+    </declare-styleable>
+
+</resources>
